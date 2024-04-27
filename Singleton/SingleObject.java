@@ -9,7 +9,7 @@ public class SingleObject {
     private SingleObject(){
         System.out.println("test成功");
     }
-  
+
     //獲取唯一可用的對象
     public static SingleObject getInstance(){
        return instance;
